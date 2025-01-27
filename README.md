@@ -8,7 +8,7 @@ Entramos no Spring Initialzr para a criação do Projeto, nossas escolhas dentro
 Codigos do GitBash:
 git init
 git commit -m "Project Created"
-git remote add origin "codigo que o git gera"
+git remote add origin "codigo que o github gera"
 git push -u origin main 
 
 O projeto é consistido com 6 pastas (Controllers, Services, DTO, Entities, Projection e Repositories), abaixo iremos falar oque cada pasta contem de classes e interfaces, alem de explicar um pouco como cada classe ou interface trabalha.
