@@ -44,11 +44,11 @@ O projeto é consistido com 6 pastas (Controllers, Services, DTO, Entities, Proj
 
 <br/>***Entities:
 <br/>Game:***
-<br/>
+<br/>A classe Game é uma entidade JPA que representa um jogo e mapeia uma tabela chamada tb_game no banco de dados. 
 <br/>***GameList:***
-<br/>
+<br/>A classe GameList é uma entidade JPA que representa uma lista de jogos no sistema.
 <br/>***Belonging:***
-<br/>
+<br/>A classe Belonging representa uma associação entre jogos e listas de jogos. Essa classe é essencial para modelar a relação muitos-para-muitos entre jogos e listas de jogos. Um jogo pode estar presente em várias listas, e uma lista pode conter vários jogos. Além disso, ela guarda a posição do jogo em cada lista, o que permite uma organização específica de jogos dentro de cada lista.
 <br/>***BelongingPK:***       
-
+<br/>A classe BelongingPK é a chave composta usada na entidade Belonging. A classe BelongingPK é utilizada na entidade Belonging para formar a chave composta que conecta um jogo a uma lista. A posição (position) do jogo dentro da lista é armazenada separadamente, mas a associação entre o jogo e a lista é representada pela chave composta.
 
